@@ -6,7 +6,7 @@ import math
 import re
 from dataclasses import dataclass
 from pathlib import Path
-from statistics import mean, median
+from statistics import mean
 from typing import Dict, List, Tuple
 
 WORD_RE = re.compile(r"[A-Za-z']+")
